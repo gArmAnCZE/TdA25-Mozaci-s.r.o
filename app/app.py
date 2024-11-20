@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask
-from . import db
+import db
 
 app = Flask(__name__)
 
@@ -20,7 +20,7 @@ db.init_app(app)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return "Hello Tour de App!"
+    return "Hello Tour de App! cau ludvo"
 
 
 if __name__ == '__main__':
