@@ -18,13 +18,13 @@ except OSError:
 db.init_app(app)
 
 
-#@app.route('/')
-#def hello_world():  # put application's code here
-#    return "Hello TdA!"
+@app.route('/')
+def hello_world():  # put application's code here
+    return "Hello TdA!"
 
-#@app.route('/api')
-#def api():  # put application's code here
-#    return jsonify({"organization": "Student Cyber Games"})
+@app.route('/api')
+def api():  # put application's code here
+    return jsonify({"organization": "Student Cyber Games"})
 
 
 if __name__ == '__main__':
